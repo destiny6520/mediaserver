@@ -39,7 +39,7 @@ mount() {
 plex () {
   sudo apt-get update
   sudo apt-get upgrade
-  wget https://downloads.plex.tv/plex-media-server-new/1.20.1.3252-a78fef9a9/debian/plexmediaserver_1.20.1.3252-a78fef9a9_amd64.deb
+  wget https://downloads.plex.tv/plex-media-server-new/1.21.0.3711-b509cc236/debian/plexmediaserver_1.21.0.3711-b509cc236_amd64.deb
   sudo dpkg -i plexmediaserver*.deb
   sudo systemctl enable plexmediaserver.service
   sudo systemctl start plexmediaserver.service
