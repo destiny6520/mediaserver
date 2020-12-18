@@ -10,7 +10,7 @@ Setup Includes:  Plex, Emby, Jelyfin - with Rclone Mount
 ## Installation
 - Clone the Repo and run the bash script
 ```
-git clone https://github.com/roshanconnor123/mediaserver && sh mediaserver/install.sh
+git clone https://github.com/destiny6520/mediaserver && sh mediaserver/install.sh
 ```
 ![mediaserver](https://i.ibb.co/ygKr9gG/Screenshot-1041.png)
 - Choose Media server of you choice..Setup a new Rclone remote when it asks you to
